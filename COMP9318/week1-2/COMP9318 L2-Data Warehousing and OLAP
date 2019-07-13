@@ -1,0 +1,58 @@
+COMP9318 L2-Data Warehousing and OLAP
+
+1.why and what are Data Warehouses?
+--Data Analysis Problems:
+	1.the same data(the actual data or concepts) can be found in many different systems
+	2.Heterogeneous sources(sources may come from various places)
+		--Relational DBMS,OnLine Transaction Processing(OLTP)
+		--Unstructed data in files(MS Excel) and documents(MS word)
+			**Structured 					vs 				Unstructued Data**
+character:	1.pre-defined data model				1.no pre-defined data model	
+			2.usually txt only						2.May be txt,images, video or other formats
+			3.Easy tp search						3.Difficult to search
+
+Resides in: 1.Relational DB 						1.Applications
+			2.Data Warehourses						2.NoSQL databases
+													3.Data Warehourses
+													4.Data lakes
+
+Typical Applications:
+			1.Airline reservation systems 			1.word processing
+			2.inventory control						2.Presentation softwares
+			3.CRM systems客户关系管理 				3.email
+			4.ERP systems企业资源计划 				4.tools for viewing and editing media
+
+	3.Data is suited for operational systems
+		--do not support analysis across business functions
+	4.Data quality is not good
+	5.Data are "volatile" 容易消失
+
+Solution to above problems:  Data Warehousing
+defination:
+	1.A decision support database that is maintained separatedly from the organization's operational database
+	2.Support information processing by providing a solid platform of consolidated, historical data for analysis.
+	3.A data warehouse is a *subject-oriented*,*integrated*,*time-variant* and *nonvolatile* collection of data in  support of management's
+	 decision-making process
+Data warehouing:
+	the process of constrcuting and using data warehouses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
