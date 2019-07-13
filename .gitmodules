@@ -1,0 +1,3 @@
+[submodule "COMP9318"]
+	path = COMP9318
+	url = https://github.com/thomascong121/COMP9318_HMM.git
